@@ -15,7 +15,7 @@ cp -avf "/ctx/system_files"/. /
 # this installs a package from fedora repos
 dnf5 install -y tmux
 
-dnf5 -y group install cinnamon-desktop
+dnf5 -y group install cinnamon-desktop --skip-broken
 
 # Use a COPR Example:
 #
